@@ -53,17 +53,14 @@ const colorNavLink = {
   color: "#006430",
   fontSize: "27px",
   textAlign: "center",
-  paddingLeft: "100px"
+  paddingLeft: "50px"
 };
-const wrapContact = {
-  marginLeft: "100px",
-  maxWidth: "700px"
-};
+
 class ContactForm extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={wrapContact}>
+        <div>
           <Form>
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>

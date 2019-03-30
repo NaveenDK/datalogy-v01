@@ -50,7 +50,7 @@ const colorNavLink = {
   color: "#006430",
   fontSize: "27px",
   textAlign: "center",
-  paddingLeft: "100px"
+  paddingLeft: "50px"
 };
 class NavbarCustom extends Component {
   render() {
